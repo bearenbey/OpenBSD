@@ -19,12 +19,6 @@ export PATH=$PATH:/home/eren/.gem/ruby/2.5/bin/
 # PYTHON
 export PATH=$PATH:/home/eren/.local/bin/
 
-# CONKY
-conky &
-
-# CLOCK
-xclock &
-
 # REDSHIFT
 redshift -P -O 3500 &
 

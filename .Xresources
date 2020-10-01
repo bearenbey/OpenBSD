@@ -1,0 +1,74 @@
+! ===== fonts
+Xft.autohint  : 0
+Xft.lcdfilter : lcddefault
+Xft.hintstyle : hintslight
+Xft.hinting   : 1
+Xft.antialias : 1
+Xft.rgba      : rgba
+Xft.dpi:      : 96
+
+XTerm.vt100.faceName: Hermit-Regular:size=11
+XTerm*geometry: 92x21
+
+XIdle*position : sw
+XIdle*delay    : 1
+XIdle*timeout  : 300
+
+XLock.dpmsoff     : 1
+XLock.description : off
+XLock.echokeys    : off
+XLock.info        :
+XLock.background  : #ffffff
+XLock.foreground  : #000000
+XLock.mode        : blank
+XLock.username    : username: 
+XLock.password    : password: 
+XLock.font        : Hermit-Regular:size=14
+XLock.planfont    : Hermit-Regular:size=14
+
+! ===== xterm
+XTerm*background     : #ffffff
+XTerm*foreground     : #000000
+XTerm*cursorColor    : #000000
+XTerm*colorUL        : #000000
+XTerm*underlineColor : #000000
+! black
+XTerm*color0         : #000000
+XTerm*color8         : #000000
+! red
+XTerm*color1         : #ba5d5d
+XTerm*color9         : #ba5d5d
+! green
+XTerm*color2         : #9a9a4d
+XTerm*color10        : #9a9a4d
+! yellow
+XTerm*color11        : #efef9e
+XTerm*color3         : #efef9e
+! blue
+XTerm*color4         : #008acf
+XTerm*color12        : #008acf
+! magenta
+XTerm*color13        : #8a8acf
+XTerm*color5         : #8a8acf
+! cyan
+XTerm*color14        : #9eefef
+XTerm*color6         : #9eefef
+! white
+XTerm*color7         : #ffffff
+XTerm*color15        : #ffffff
+
+XTerm*borderWidth            : 0
+XTerm*internalBorder         : 2
+XTerm*termName               : xterm-256color
+XTerm*vt100.metaSendsEscape  : true
+XTerm*v100.saveLines         : 10240
+XTerm*vt100.scrollBar        : true
+XTerm*vt100.bellIsUrgent     : true
+XTerm*allowBoldFonts         : false
+XTerm*scrollKey              : true
+XTerm*fullscreen             : never
+XTerm*cutToBeginningOfLine   : false
+XTerm*cutNewline             : false
+XTerm*charClass              : 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+XTerm*on2Clicks              : word
+XTerm*on3Clicks              : line

@@ -1,0 +1,32 @@
+# Me
+set from = ""
+set realname = ""
+
+# My credentials
+# For 2FA issue and application token from:
+# https://security.google.com/settings/security/apppasswords
+set smtp_url = "smtp://...@smtp.gmail.com:587/"
+set smtp_pass = ""
+set imap_user = ""
+set imap_pass = ""
+
+# My mailboxes
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set postponed = "+[Gmail]/Drafts"
+
+# Where to put the stuff
+set header_cache = "~/.mutt/cache/headers"
+set message_cachedir = "~/.mutt/cache/bodies"
+set certificate_file = "~/.mutt/certificates"
+
+# Etc
+set mail_check = 30
+set move = no
+set imap_keepalive = 900
+set sort = threads
+set editor = "mg"
+set smtp_authenticators = 'gssapi:login'
+
+# GPG
+source ~/.mutt/gpg.rc
